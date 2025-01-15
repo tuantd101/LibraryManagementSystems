@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">PRM392</string>
+    <!--    Login-Logout-->
+    <string name="login">Login</string>
+    <string name="setting">Setting</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="forgotPassword">Forgot Password</string>
+    <string name="resetPassword">Reset Password</string>
+
+    <!--    Dashboard-->
+    <string name="bookFunction">Books</string>
+    <string name="notificationFunction">Notification</string>
+    <string name="staffFunction">Staff</string>
+    <string name="historyFunction">History</string>
+    <string name="customerFunction">Customer</string>
+    <string name="statisticFunction">Statistic</string>
+
+    <!--    Show Logs-->
+    <string name="history">History</string>
+
+    <!--    Change Password-->
+    <string name="oldPassword">Old Password</string>
+    <string name="newPassword">New Password</string>
+    <string name="confirmPassword">Confirm Password</string>
+    <string name="changePassword">Change Password</string>
+
+    <!--    Search-->
+    <string name="search">Search</string>
+</resources>

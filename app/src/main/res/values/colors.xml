@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="library_primary">#5D1049</color>
+    <color name="library_primary_variant">#450C33</color>
+    <color name="library_secondary">#FFD600</color>
+    <color name="library_secondary_variant">#CCA000</color>
+    <color name="library_text">#000000</color>
+    <color name="library_background">#99FFFF</color>
+</resources>

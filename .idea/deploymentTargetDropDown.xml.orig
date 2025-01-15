@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="deploymentTargetDropDown">
+<<<<<<< HEAD
+    <targetSelectedWithDropDown>
+      <Target>
+        <type value="QUICK_BOOT_TARGET" />
+        <deviceKey>
+          <Key>
+            <type value="VIRTUAL_DEVICE_PATH" />
+            <value value="C:\Users\manh3\.android\avd\Pixel_2_API_26.avd" />
+          </Key>
+        </deviceKey>
+      </Target>
+    </targetSelectedWithDropDown>
+    <timeTargetWasSelectedWithDropDown value="2024-03-03T08:15:16.875278400Z" />
+=======
+    <value>
+      <entry key="ChangePassword">
+        <State />
+      </entry>
+      <entry key="Dashboard">
+        <State />
+      </entry>
+      <entry key="Log">
+        <State />
+      </entry>
+      <entry key="Login">
+        <State />
+      </entry>
+      <entry key="app">
+        <State />
+      </entry>
+    </value>
+>>>>>>> 56c74b87dc3f0f1a083074de58948765ba54f76f
+  </component>
+</project>

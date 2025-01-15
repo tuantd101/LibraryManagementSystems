@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".controller.Dashboard">
+
+    <!-- Toolbar -->
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="0dp"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Image view for user profile -->
+    <ImageView
+        android:id="@+id/imageViewUserProfile"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:src="@drawable/logout_icon_foreground"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/toolbar"
+        app:layout_constraintBottom_toBottomOf="@id/toolbar"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:id="@+id/tvHello"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello"
+        android:textColor="@android:color/white"
+        app:layout_constraintStart_toEndOf="@id/imageViewUserProfile"
+        app:layout_constraintTop_toTopOf="@id/imageViewUserProfile"
+        app:layout_constraintBottom_toBottomOf="@id/imageViewUserProfile"
+        android:layout_marginStart="8dp"/>
+
+    <!-- Header -->
+
+    <!-- Guideline for spacing -->
+
+    <TextView
+        android:id="@+id/textViewHeader"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text="Dashboard"
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/toolbar" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.23" />
+
+    <!-- Button to navigate to Function 1 -->
+    <Button
+        android:id="@+id/btBookFunction"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/bookFunction"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/btStaffFunction"
+        app:layout_constraintTop_toBottomOf="@id/guideline"
+        android:onClick="onClickFunction1"/>
+
+    <!-- Button to navigate to Function 2 -->
+    <Button
+        android:id="@+id/btStaffFunction"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/staffFunction"
+        app:layout_constraintStart_toEndOf="@id/btBookFunction"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/guideline"
+        android:onClick="onClickFunction2"/>
+
+    <!-- Button to navigate to Function 3 -->
+    <Button
+        android:id="@+id/btCustomerFunction"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/customerFunction"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/btNotificationFunction"
+        app:layout_constraintTop_toBottomOf="@id/btBookFunction"
+        android:onClick="onClickFunction3"/>
+
+    <Button
+        android:id="@+id/btNotificationFunction"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/notificationFunction"
+        app:layout_constraintStart_toEndOf="@id/btCustomerFunction"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btStaffFunction"
+        android:onClick="f"/>
+
+    <Button
+        android:id="@+id/btHistoryFunction"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/historyFunction"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/btStatisticFunction"
+        app:layout_constraintTop_toBottomOf="@id/btCustomerFunction"
+        android:onClick="f"/>
+
+    <Button
+        android:id="@+id/btStatisticFunction"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/historyFunction"
+        app:layout_constraintStart_toEndOf="@id/btHistoryFunction"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btNotificationFunction"
+        android:onClick="f"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

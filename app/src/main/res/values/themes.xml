@@ -1,0 +1,19 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.PRM392" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/library_primary</item>
+        <item name="colorPrimaryVariant">@color/library_primary_variant</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Customize your dark theme here -->
+        <item name="colorSecondary">@color/library_secondary</item>
+        <item name="colorSecondaryVariant">@color/library_secondary_variant</item>
+        <item name="colorOnSecondary">@color/black</item>
+
+        <item name="android:textColor">@color/library_text</item>
+        <item name="android:windowBackground">@color/library_background</item>
+    </style>
+    <style name="textSize">
+        <item name="android:textSize">20sp</item>
+    </style>
+    <style name="Theme.PRM392" parent="Base.Theme.PRM392" />
+</resources>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/option_setting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="setting"
+        android:icon="@drawable/setting_icon"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/option_change_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="Change Password"
+        android:icon="@drawable/change_icon"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/option_logout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="logout"
+        android:icon="@drawable/logout_icon_foreground"
+        app:showAsAction="ifRoom" />
+
+
+</menu>
